@@ -2,14 +2,14 @@
 
 ## Spis Treści
 
-- [Zadanie 1 - "Wyremontujemy wasz dom!"](#zadanie-1---wyremontujemy-wasz-dom)
-- [Zadanie 2 - "Szczyty"](#zadanie-2---szczyty)
-- [Zadanie 3 - "Fala"](#zadanie-3---fala)
-- [Zadanie 4 - "Faktury"](#zadanie-4---faktury)
-- [Zadanie 5 - "Dostawca mleka"](#zadanie-5---dostawca-mleka)
-- [Zadanie 6 - "Turniej"](#zadanie-6---turniej)
-- [Zadanie 7 - "Premia lub hańba"](#zadanie-7---premia-lub-haba)
-- [Zadanie 8 - "Polowanie na kraby"](#zadanie-8---polowanie-na-kraby)
+- [Zadanie 1 - "Wyremontujemy wasz dom!"](#zadanie-1----wyremontujemy-wasz-dom--)
+- [Zadanie 2 - "Szczyty"](#zadanie-2----szczyty-)
+- [Zadanie 3 - "Fala"](#zadanie-3----fala-)
+- [Zadanie 4 - "Faktury"](#zadanie-4----faktury-)
+- [Zadanie 5 - "Dostawca mleka"](#zadanie-5----dostawca-mleka-)
+- [Zadanie 6 - "Turniej"](#zadanie-6----turniej-)
+- [Zadanie 7 - "Premia lub hańba"](#zadanie-7----premia-lub-hańba-)
+- [Zadanie 8 - "Polowanie na kraby"](#zadanie-8----polowanie-na-kraby-)
 
 
 ## Zadanie 1 - "Wyremontujemy wasz dom!"
