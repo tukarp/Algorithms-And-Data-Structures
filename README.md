@@ -12,7 +12,7 @@
 - [Zadanie 8 - "Polowanie na kraby"](#zadanie-8----polowanie-na-kraby-)
 
 
-## Zadanie 1 - "Wyremontujemy wasz dom!"
+## Zadanie 1 - Wyremontujemy wasz dom!
 
 ### Treść zadania
 
@@ -75,7 +75,7 @@ Bayo
 Abidemi
 ```
 
-## Zadanie 2 - "Szczyty"
+## Zadanie 2 - Szczyty
 
 ### Treść Zadania
 
@@ -127,7 +127,7 @@ Indrys-10
 
 ***Uwaga! Nie można używać bibliotek STL. Program ma być samodzielną implementacją algorytmu sortującego.***
 
-## Zadanie 3 - "Fala"
+## Zadanie 3 - Fala
 
 ### Treść Zadania
 
@@ -191,7 +191,7 @@ Wyjście:
 
 ***Uwaga! Zadanie ma być samodzielną implementacją list bez wykorzystania bibliotek STL.***
 
-## Zadanie 4 - "Faktury"
+## Zadanie 4 - Faktury
 
 ### Treść Zadania
 
@@ -242,7 +242,7 @@ XZASQ4689
 
 ***Uwaga! Zadanie ma być samodzielną implementacją drzewa binarnego bez wkorzystania bibliotek STL.***
 
-## Zadanie 5 - "Dostawca mleka"
+## Zadanie 5 - Dostawca mleka
 
 ### Treść Zadania
 
@@ -283,7 +283,7 @@ Wyjście:
 2
 ```
 
-## Zadanie 6 - "Turniej"
+## Zadanie 6 - Turniej
 
 ### Treść Zadania
 
@@ -326,7 +326,7 @@ Wyjście:
 
 ***Uwaga! Program ma w swoim rozwiązaniu używać metody "dziel i zwyciężaj" zaimplementowanej ze złożonością O(nlogn).***
 
-## Zadanie 7 - "Premia lub hańba"
+## Zadanie 7 - Premia lub hańba
 
 ### Treść Zadania
 
@@ -363,7 +363,7 @@ Wyjście:
 
 ***Uwaga! Zadanie ma zostać rozwiązane przy użyciu programowania dynamicznego ze złożonością O(n3).***
 
-## Zadanie 8 - "Polowanie na kraby"
+## Zadanie 8 - Polowanie na kraby
 
 ### Treść Zadania
 
