@@ -15,14 +15,14 @@
 
 ### Rozwiązania
 
-- [Zadanie 1 - Wyremontujemy wasz dom!](https://github.com/tukarp/Algorithms-And-Data-Structures/tree/master/zadanie-1---wyremontujemy-wasz-dom)
-- [Zadanie 2 - Szczyty](https://github.com/tukarp/Algorithms-And-Data-Structures/tree/master/zadanie-2---szczyty)
-- [Zadanie 3 - Fala](https://github.com/tukarp/Algorithms-And-Data-Structures/tree/master/zadanie-3---fala)
-- [Zadanie 4 - Faktury](https://github.com/tukarp/Algorithms-And-Data-Structures/tree/master/zadanie-4---faktury)
-- [Zadanie 5 - Dostawca mleka](https://github.com/tukarp/Algorithms-And-Data-Structures/tree/master/zadanie-5---dostawca-mleka)
-- [Zadanie 6 - Turniej](https://github.com/tukarp/Algorithms-And-Data-Structures/tree/master/zadanie-6---turniej)
-- [Zadanie 7 - Premia lub hańba](https://github.com/tukarp/Algorithms-And-Data-Structures/tree/master/zadanie-7---premia-lub-hańba)
-- [Zadanie 8 - Polowanie na kraby](https://github.com/tukarp/Algorithms-And-Data-Structures/tree/master/zadanie-8---polowanie-na-kraby)
+- [Zadanie 1 - Wyremontujemy wasz dom!](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%201%20-%20Wyremontujemy%20wasz%20dom!.cpp)
+- [Zadanie 2 - Szczyty](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%202%20-%20Szczyty.cpp)
+- [Zadanie 3 - Fala](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%203%20-%20Fala.cpp)
+- [Zadanie 4 - Faktury](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%204%20-%20Faktury.cpp)
+- [Zadanie 5 - Dostawca mleka](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%205%20-%20Dostawca%20mleka.cpp)
+- [Zadanie 6 - Turniej](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%206%20-%20Turniej.cpp)
+- [Zadanie 7 - Premia lub hańba](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%207%20-%20Premia%20lub%20hanba.cpp)
+- [Zadanie 8 - Polowanie na kraby]https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%208%20-%20Polowanie%20na%20kraby.cpp)
 
 ## Zadanie 1 - Wyremontujemy wasz dom!
 
