@@ -24,7 +24,7 @@
 - [Zadanie 6 - Turniej](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%206%20-%20Turniej.cpp)
 - [Zadanie 7 - Premia lub hańba](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%207%20-%20Premia%20lub%20hanba.cpp)
 - [Zadanie 8 - Polowanie na kraby](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%208%20-%20Polowanie%20na%20kraby.cpp)
-- [Zadanie 9 - Rankingowe polowanie](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%209%20-%20rankingowe%20polowanie.cpp)
+- [Zadanie 9 - Rankingowe polowanie](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%209%20-%20Rankingowe%20polowanie.cpp)
 
 ## Zadanie 1 - Wyremontujemy wasz dom!
 
