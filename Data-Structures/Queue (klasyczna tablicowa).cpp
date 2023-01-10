@@ -97,7 +97,7 @@ public:
             i++;
         }
         if(is_empty()) {
-            cout << "---" << endl;
+            cout << "The queue is empty!" << endl;
         }
     }
 };
