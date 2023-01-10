@@ -52,6 +52,11 @@ public:
         return temp;
     }
 
+    // printing element from the top of the queue
+    void front() {
+        cout << head << endl;
+    }
+
     // checking if queue is empty
     bool is_empty() {
         if(head == tail) {
@@ -72,6 +77,9 @@ int main() {
     queue->push("2");
     queue->push("3");
     queue->push("4");
+
+    cout << "Printing first element of the queue: " << endl;
+    queue->front();
 
     cout << "Emptying the queue: " << endl;
     for(int i = 0; i < size; i++) {
