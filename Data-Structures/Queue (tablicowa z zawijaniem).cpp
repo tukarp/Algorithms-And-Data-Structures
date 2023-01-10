@@ -24,6 +24,11 @@ public:
     ~Queue() {
         delete[] elements;
     }
+    
+    // printing element from the top of the queue
+    void front() {
+        cout << head << endl;
+    }
 
     // adding element at the end of the queue
     void push(string new_value) {
@@ -50,11 +55,6 @@ public:
         string temp = elements[head];
         head = (head + 1) % size;
         return temp;
-    }
-
-    // printing element from the top of the queue
-    void front() {
-        cout << head << endl;
     }
 
     // checking if queue is empty
