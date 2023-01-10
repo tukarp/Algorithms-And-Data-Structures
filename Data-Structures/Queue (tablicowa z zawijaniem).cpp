@@ -26,8 +26,8 @@ public:
     }
 
     // adding element at the end of the queue
-    void push(string new_data) {
-        elements[tail] = new_data;
+    void push(string new_value) {
+        elements[tail] = new_value;
         tail = (tail + 1) % size;
         if(head == tail) {
             string * temp_array = new string[2 * size];
