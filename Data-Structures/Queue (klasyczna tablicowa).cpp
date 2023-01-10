@@ -91,10 +91,10 @@ public:
 
     // printing all elements of the queue
     void print() {
-        unsigned int i = 0;
-        while(i < elements_counter) {
-            cout << "index:" << i << " value:" << elements[i] << endl;
-            i++;
+        unsigned int index_counter = 0;
+        while(index_counter < elements_counter) {
+            cout << "index:" << index_counter << " value:" << elements[index_counter] << endl;
+            index_counter++;
         }
         if(is_empty()) {
             cout << "The queue is empty!" << endl;
