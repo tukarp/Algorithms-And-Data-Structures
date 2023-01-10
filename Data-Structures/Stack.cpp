@@ -22,6 +22,11 @@ public:
     ~Stack() {
         delete[] elements;
     }
+    
+    // print element from the top of the stack
+    void top() {
+        cout << elements[elements_counter - 1] << endl;
+    }
 
     // adding element on the top of the stack
     void push(string new_data) {
@@ -46,11 +51,6 @@ public:
         elements[elements_counter].clear();
         elements_counter--;
         return top;
-    }
-
-    // print element from the top of the stack
-    void top() {
-        cout << elements[elements_counter - 1] << endl;
     }
 
     // checking if queue is empty
