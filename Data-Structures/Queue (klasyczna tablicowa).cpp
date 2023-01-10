@@ -27,6 +27,16 @@ public:
         delete[] elements;
     }
 
+    // printing first element of the queue
+    void front() {
+        cout << "First element of the queue: " << elements[0] << endl;
+    }
+
+    // printing last element of the queue
+    void back() {
+        cout << "Last element of the queue: " << elements[elements_counter - 1] << endl;
+    }
+
     // adding element at the end of the queue
     void push(string new_value) {
         elements[tail] = new_value;
@@ -77,16 +87,6 @@ public:
     // printing the actual size of the queue
     void print_size() {
         cout << "Size: " << elements_counter << endl;
-    }
-
-    // printing first element of the queue
-    void front() {
-        cout << "First element of the queue: " << elements[0] << endl;
-    }
-
-    // printing last element of the queue
-    void back() {
-        cout << "Last element of the queue: " << elements[elements_counter - 1] << endl;
     }
 
     // printing all elements of the queue
