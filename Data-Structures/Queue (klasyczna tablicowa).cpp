@@ -118,7 +118,6 @@ int main() {
     queue->back();
     queue->print_size();
 
-    // emptying the queue
     cout << "Emptying the queue: " << endl;
     int size = queue->get_size();
     for(int i = 0; i < size; i++) {
