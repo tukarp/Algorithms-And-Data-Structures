@@ -28,8 +28,8 @@ public:
     }
 
     // adding element at the end of the queue
-    void push(string new_data) {
-        elements[tail] = new_data;
+    void push(string new_value) {
+        elements[tail] = new_value;
         tail = (tail + 1) % size;
         elements_counter++;
         if(head == tail) {
@@ -93,7 +93,7 @@ public:
     void print() {
         unsigned int i = 0;
         while(i < elements_counter) {
-            cout << "index:" << i << " data:" << elements[i] << endl;
+            cout << "index:" << i << " value:" << elements[i] << endl;
             i++;
         }
         if(is_empty()) {
