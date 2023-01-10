@@ -70,7 +70,7 @@ public:
     }
 
     // getting the actual size of the queue
-    int get_actual_size() {
+    int get_size() {
         return elements_counter;
     }
 
@@ -80,12 +80,12 @@ public:
     }
 
     // printing first element of the queue
-    void print_front() {
+    void front() {
         cout << "First element of the queue: " << elements[0] << endl;
     }
 
     // printing last element of the queue
-    void print_back() {
+    void back() {
         cout << "Last element of the queue: " << elements[elements_counter - 1] << endl;
     }
 
@@ -114,13 +114,13 @@ int main() {
 
     cout << "Printing different elements of the queue: " << endl;
     queue->print();
-    queue->print_front();
-    queue->print_back();
+    queue->front();
+    queue->back();
     queue->print_size();
 
     // emptying the queue
     cout << "Emptying the queue: " << endl;
-    int size = queue->get_actual_size();
+    int size = queue->get_size();
     for(int i = 0; i < size; i++) {
         cout << queue->pop() << endl;
     }
