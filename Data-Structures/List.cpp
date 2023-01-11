@@ -13,12 +13,12 @@ private:
     };
     element * first;
 public:
-    // Constructor
+    // constructor
     List() {
         first = NULL;
     }
 
-    // Destructor
+    // destructor
     ~List() {
         element * temp;
         while(first != NULL) {
