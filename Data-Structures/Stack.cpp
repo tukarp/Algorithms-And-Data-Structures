@@ -11,14 +11,14 @@ private:
     unsigned int elements_counter;
     string * elements;
 public:
-    // Constructor
+    // constructor
     Stack() {
         size = 100;
         elements_counter = 0;
         elements = new string[size];
     }
 
-    // Destructor
+    // destructor
     ~Stack() {
         delete[] elements;
     }
