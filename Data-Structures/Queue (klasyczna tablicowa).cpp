@@ -13,7 +13,7 @@ private:
     unsigned int elements_counter;
     string * elements;
 public:
-    // Constructor
+    // constructor
     Queue() {
         head = 0;
         tail = 0;
@@ -22,7 +22,7 @@ public:
         elements = new string[size];
     }
 
-    // Destructor
+    // destructor
     ~Queue() {
         delete[] elements;
     }
