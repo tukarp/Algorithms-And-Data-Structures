@@ -26,7 +26,7 @@ private:
                 leaf->left->left = NULL;
                 leaf->left->right = NULL;
             }
-        }else if(searched_value >= leaf->value){
+        } else if(searched_value >= leaf->value) {
             if(leaf->right != NULL) {
                 insert(searched_value, leaf->right);
             } else {
