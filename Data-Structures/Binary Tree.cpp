@@ -110,7 +110,7 @@ private:
         if(leaf != NULL) {
             cout << prefix;
             cout << (is_left ? "|--" : "L--" );
-            cout << leaf->value << endl;
+            cout << leaf->value << "\n";
             draw_tree(prefix + (is_left ? "|   " : "    "), leaf->right, true);
             draw_tree(prefix + (is_left ? "|   " : "    "), leaf->left, false);
         }
@@ -160,19 +160,19 @@ public:
     // printing the binary tree using preorder traversal
     void preorder_traversal() {
         preorder_traversal(root);
-        cout << endl;
+        cout << "\n";
     }
 
     // printing the binary tree using inorder traversal
     void inorder_traversal() {
         inorder_traversal(root);
-        cout << endl;
+        cout << "\n";
     }
 
     // printing the binary tree using postorder traversal
     void postorder_traversal() {
         postorder_traversal(root);
-        cout << endl;
+        cout << "\n";
     }
 
     // drawing the tree
@@ -195,15 +195,15 @@ int main() {
     tree->insert("7");
     tree->insert("4");
 
-    cout << "Preorder Traversal: " << endl;
+    cout << "Preorder Traversal: " << "\n";
     tree->preorder_traversal();
-    cout << "Inorder Traversal: " << endl;
+    cout << "Inorder Traversal: " << "\n";
     tree->inorder_traversal();
-    cout << "Postorder Traversal: " << endl;
+    cout << "Postorder Traversal: " << "\n";
     tree->postorder_traversal();
-    cout << "Tree size: " << endl;
-    cout << tree->get_size() << endl;
-    cout << "Drawing binary tree: " << endl;
+    cout << "Tree size: " << "\n";
+    cout << tree->get_size() << "\n";
+    cout << "Drawing binary tree: " << "\n";
     tree->draw_tree();
     
     tree->~Binary_tree();
