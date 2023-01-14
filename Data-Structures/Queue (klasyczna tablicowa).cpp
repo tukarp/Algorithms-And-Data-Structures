@@ -29,12 +29,12 @@ public:
 
     // printing first element of the queue
     void front() {
-        cout << "First element of the queue: " << elements[0] << endl;
+        cout << "First element of the queue: " << elements[0] << "\n";
     }
 
     // printing last element of the queue
     void back() {
-        cout << "Last element of the queue: " << elements[elements_counter - 1] << endl;
+        cout << "Last element of the queue: " << elements[elements_counter - 1] << "\n";
     }
 
     // adding element at the end of the queue
@@ -86,18 +86,18 @@ public:
 
     // printing the actual size of the queue
     void print_size() {
-        cout << "Size: " << elements_counter << endl;
+        cout << "Size: " << elements_counter << "\n";
     }
 
     // printing all elements of the queue
     void print() {
         unsigned int index_counter = 0;
         while(index_counter < elements_counter) {
-            cout << "index:" << index_counter << " value:" << elements[index_counter] << endl;
+            cout << "index:" << index_counter << " value:" << elements[index_counter] << "\n";
             index_counter++;
         }
         if(is_empty()) {
-            cout << "The queue is empty!" << endl;
+            cout << "The queue is empty!" << "\n";
         }
     }
 };
@@ -112,19 +112,19 @@ int main() {
     queue->push("3");
     queue->push("4");
 
-    cout << "Printing different elements of the queue: " << endl;
+    cout << "Printing different elements of the queue: " << "\n";
     queue->print();
     queue->front();
     queue->back();
     queue->print_size();
 
-    cout << "Emptying the queue: " << endl;
+    cout << "Emptying the queue: " << "\n";
     int size = queue->get_size();
     for(int i = 0; i < size; i++) {
-        cout << queue->pop() << endl;
+        cout << queue->pop() << "\n";
     }
 
-    cout << "Printing the queue and checking if it's empty: " << endl;
+    cout << "Printing the queue and checking if it's empty: " << "\n";
     queue->print();
     cout << queue->is_empty();
 
