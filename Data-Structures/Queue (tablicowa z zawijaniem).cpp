@@ -27,7 +27,7 @@ public:
     
     // printing element from the top of the queue
     void front() {
-        cout << head << endl;
+        cout << head << "\n";
     }
 
     // adding element at the end of the queue
@@ -78,15 +78,15 @@ int main() {
     queue->push("3");
     queue->push("4");
 
-    cout << "Printing first element of the queue: " << endl;
+    cout << "Printing first element of the queue: " << "\n";
     queue->front();
 
-    cout << "Emptying the queue: " << endl;
+    cout << "Emptying the queue: " << "\n";
     for(int i = 0; i < size; i++) {
-        cout << i + 1 << ". Element of queue: " << queue->pop() << endl;
+        cout << i + 1 << ". Element of queue: " << queue->pop() << "\n";
     }
 
-    cout << "Checking if queue is empty: " << endl;
+    cout << "Checking if queue is empty: " << "\n";
     cout << queue->is_empty();
 
     queue->~Queue();
