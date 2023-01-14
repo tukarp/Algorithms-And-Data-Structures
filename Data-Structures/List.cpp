@@ -145,12 +145,12 @@ public:
     // printing the list
     void print() {
         if(first == NULL) {
-            cout << first -> value << endl;
+            cout << first -> value << "\n";
         } else {
             unsigned int index_counter = 0;
             element * it = first;
             while(it != NULL) {
-                cout << "index:" << index_counter << " value: " << it -> value << endl;
+                cout << "index:" << index_counter << " value: " << it -> value << "\n";
                 it = it -> next;
                 index_counter++;
             }
@@ -163,7 +163,7 @@ int main() {
     List * list = new List();
     unsigned int number_of_elements;
 
-    cout << "How many elements do you want to add? " << endl;
+    cout << "How many elements do you want to add? " << "\n";
     cin >> number_of_elements;
     for(int i = 0; i < number_of_elements; i++) {
         string temp;
@@ -171,31 +171,31 @@ int main() {
         list->append(temp);
     }
 
-    cout << "Printing the list: " << endl;
+    cout << "Printing the list: " << "\n";
     list->print();
 
-    cout << "Getting value from index: " << endl;
-    cout << list->get_value_from_index(number_of_elements) << endl;
+    cout << "Getting value from index: " << "\n";
+    cout << list->get_value_from_index(number_of_elements) << "\n";
 
-    cout << "Pushing element: " << endl;
+    cout << "Pushing element: " << "\n";
     list->push("10");
     list->print();
 
-    cout << "First element from the list: " << endl;
-    cout << list->front() << endl;
+    cout << "First element from the list: " << "\n";
+    cout << list->front() << "\n";
 
-    cout << "Deleting first element from the list " << endl;
+    cout << "Deleting first element from the list " << "\n";
     list->pop_front();
     list->print();
 
-    cout << "Last element from the list: " << endl;
-    cout << list->back() << endl;
+    cout << "Last element from the list: " << "\n";
+    cout << list->back() << "\n";
 
-    cout << "Deleting last element from the list " << endl;
+    cout << "Deleting last element from the list " << "\n";
     list->pop_back();
     list->print();
 
-    cout << "Is list empty? " << endl;
+    cout << "Is list empty? " << "\n";
     cout << list->is_empty();
 
     list->~List();
