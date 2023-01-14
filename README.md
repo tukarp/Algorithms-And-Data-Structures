@@ -5,11 +5,12 @@
 ### Struktury danych
 
 - [Stos](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/Stack.cpp)
-- [Lista](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/List.cpp)
-- [Lista dwukierunkowa cykliczna](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/Circular%20linked%20list.cpp)
 - [Kolejka (klasyczna tablicowa)](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/Queue%20(klasyczna%20tablicowa).cpp)
 - [Kolejka (tablicowa z zawijaniem)](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/Queue%20(tablicowa%20z%20zawijaniem).cpp)
+- [Lista](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/List.cpp)
+- [Lista dwukierunkowa cykliczna](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/Circular%20linked%20list.cpp)
 - [Drzewo binarne](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/Binary%20Tree.cpp)
+- [Graf](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/Graph.cpp)
 
 ### Treści zadań
 
