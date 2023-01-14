@@ -25,7 +25,7 @@ public:
     
     // print element from the top of the stack
     void top() {
-        cout << elements[elements_counter - 1] << endl;
+        cout << elements[elements_counter - 1] << "\n";
     }
 
     // adding element on the top of the stack
@@ -69,16 +69,16 @@ public:
 
     // print size of the stack
     void print_size() {
-        cout << elements_counter << endl;
+        cout << elements_counter << "\n";
     }
 
     void print() {
         if(is_empty()) {
-            cout << "The stack is empty!" << endl;
+            cout << "The stack is empty!" << "\n";
         } else {
-            cout << "Top: " << endl;
+            cout << "Top: " << "\n";
             for(int i = elements_counter - 1; i >= 0; i--) {
-                cout << elements[i] << endl;
+                cout << elements[i] << "\n";
             }
         }
     }
@@ -94,21 +94,21 @@ int main() {
     stack->push("4");
     stack->push("5");
 
-    cout << "Element at the top of the stack: " << endl;
+    cout << "Element at the top of the stack: " << "\n";
     stack->top();
 
-    cout << "Size of the stack: " << endl;
+    cout << "Size of the stack: " << "\n";
     stack->print_size();
 
-    cout << "Emptying the stack: " << endl;
+    cout << "Emptying the stack: " << "\n";
     int size = stack->get_size();
     for(int i = 0; i < size; i++) {
-        cout << "Printing the stack: " << endl;
+        cout << "Printing the stack: " << "\n";
         stack->print();
         stack->pop();
     }
 
-    cout << "Printing the stack and checking if it's empty: " << endl;
+    cout << "Printing the stack and checking if it's empty: " << "\n";
     stack->print();
     cout << stack->is_empty();
 
