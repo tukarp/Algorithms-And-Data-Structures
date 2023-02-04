@@ -9,7 +9,7 @@ private:
     int ** adjacency;
     int max;
 public:
-    // constructor
+    // Constructor
     Graph(int get_max) {
         // getting the max element
         max = get_max + 1;
@@ -28,7 +28,7 @@ public:
         }
     }
 
-    // destructor
+    // Destructor
     ~Graph() {
         for(int i = 0; i < max; i++) {
             delete[] adjacency[i];
