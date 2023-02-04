@@ -71,7 +71,7 @@ int main() {
     Queue * queue = new Queue();
     const int size = 5;
 
-    // Adding elements to the queue:
+    // adding elements to the queue:
     queue->push("0");
     queue->push("1");
     queue->push("2");
