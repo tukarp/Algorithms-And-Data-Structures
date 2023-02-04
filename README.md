@@ -5,7 +5,7 @@
 ### Struktury danych
 
 - [Stos](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/Stack.cpp)
-- [Tablica](https://github.com/tukarp/Algorithms-And-Data-Structures/tree/main/Data-Structures)
+- [Tablica](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/Array.cpp)
 - [Kolejka (klasyczna tablicowa)](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/Queue%20(klasyczna%20tablicowa).cpp)
 - [Kolejka (tablicowa z zawijaniem)](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/Queue%20(tablicowa%20z%20zawijaniem).cpp)
 - [Lista](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/List.cpp)
