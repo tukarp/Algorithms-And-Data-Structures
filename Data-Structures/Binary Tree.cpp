@@ -116,13 +116,13 @@ private:
         }
     }
 public:
-    // Constructor
+    // constructor
     Binary_tree() {
         root = NULL;
         size = 0;
     }
 
-    // Destructor
+    // destructor
     ~Binary_tree() {
         delete_tree();
     }
