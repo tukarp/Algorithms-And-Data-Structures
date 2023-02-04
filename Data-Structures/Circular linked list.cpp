@@ -17,14 +17,14 @@ private:
     Node * tail;
     int list_size = 0;
 public:
-    // Constructor
+    // constructor
     Circular_Linked_List() {
         head = new Node;
         head -> index = 0;
         head -> next = NULL;
     }
 
-    // Destructor
+    // destructor
     ~Circular_Linked_List() {
         Node * temp;
         while(head != NULL) {
