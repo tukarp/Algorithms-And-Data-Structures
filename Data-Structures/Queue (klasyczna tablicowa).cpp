@@ -105,7 +105,7 @@ public:
 int main() {
     Queue * queue = new Queue();
 
-    // Adding elements to the queue:
+    // adding elements to the queue:
     queue->push("0");
     queue->push("1");
     queue->push("2");
