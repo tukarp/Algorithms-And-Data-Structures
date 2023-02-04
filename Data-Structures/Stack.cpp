@@ -87,7 +87,7 @@ public:
 int main() {
     Stack * stack = new Stack();
 
-    // Adding elements to the stack:
+    // adding elements to the stack:
     stack->push("1");
     stack->push("2");
     stack->push("3");
