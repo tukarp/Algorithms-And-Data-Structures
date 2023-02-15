@@ -28,7 +28,9 @@ int main() {
     }
     cout << "\n";
 
+    cout << " ---------- \n";
     cout << "Sorting array \n";
+    cout << " ---------- \n";
     selection_sort(size, array);
 
     cout << "Printing array after sorting: \n";
