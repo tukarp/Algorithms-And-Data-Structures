@@ -9,9 +9,24 @@
 - [Kolejka (klasyczna tablicowa)](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/Queue%20(klasyczna%20tablicowa).cpp)
 - [Kolejka (tablicowa z zawijaniem)](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/Queue%20(tablicowa%20z%20zawijaniem).cpp)
 - [Lista](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/List.cpp)
-- [Lista dwukierunkowa cykliczna](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/Circular%20linked%20list.cpp)
+- [Lista Dwukierunkowa Cykliczna](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/Circular%20Linked%20List.cpp)
 - [Drzewo binarne](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/Binary%20Tree.cpp)
 - [Graf](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/Graph.cpp)
+
+### Algorytmy Sortujące
+
+- [Bogo Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Bogo%20Sort.cpp)
+- [Bubble Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Bubble%20Sort.cpp)
+- [Bucket Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Bucket%20Sort.cpp)
+- [Cocktail Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Cocktail%20Sort.cpp)
+- [Counting Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Counting%20Sort.cpp)
+- [Heap Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Heap%20Sort.cpp)
+- [Insertion Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Insertion%20Sort.cpp)
+- [Merge Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Merge%20Sort.cpp)
+- [Quick Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Quick%20Sort.cpp)
+- [Radix Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Radix%20Sort.cpp)
+- [Selection Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Selection%20Sort.cpp)
+- [Shell Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Shell%20Sort.cpp)
 
 ### Treści zadań
 
