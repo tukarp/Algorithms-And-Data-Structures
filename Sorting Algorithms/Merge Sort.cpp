@@ -61,7 +61,7 @@ void merge_sort(int array[], int const begin, int const end) {
 }
 
 int main() {
-    const int size = 9;
+    const int size = 10;
     int array[size] = {-79, 62, 27, 69, 36, -89, 0, -79, -43, 68};
 
     cout << "Printing array before sorting: \n";
