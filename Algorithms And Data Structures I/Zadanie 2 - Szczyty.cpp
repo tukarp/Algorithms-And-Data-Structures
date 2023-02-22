@@ -3,121 +3,121 @@
 
 using namespace std;
 
-// wyswietlanie wynikow
-void print_results(int n, string names[], unsigned int heights[]) {
-    for(int i = 0; i < n; i++) {
-        cout << names[i] << "-" << heights[i] << " ";
+// struktura szczytów
+struct Peak {
+    string name;
+    unsigned int height;
+};
+
+// wyświetlenie szczytów
+void print_peaks(int size, Peak * peaks) {
+    for(int i = 0; i < size; i++) {
+        cout << peaks[i].name << "-" << peaks[i].height << " ";
     }
 }
 
-// sortowanie
-void sort(int n, string names[], unsigned int heights[]) {
-    unsigned int buff;
-    string buff_string;
-    int count = 0;
+// funkcja sortująca
+void sort(int size, Peak * peaks) {
+    // zaalokowanie zmiennych potrzebnych do sortowania
+    unsigned int height_buff;
+    string name_buff;
+    int counter = 0;
     int j;
 
-    // znalezienie ilosci poteg dwojki
-    for(int i = 0; i < n; i++) {
-        if(((heights[i] & (heights[i] - 1)) == 0) || (heights[i] == 1)) {
-            count++;
+    // znalezienie ilości potęg dwójki
+    for(int i = 0; i < size; i++) {
+        if(((peaks[i].height & (peaks[i].height - 1)) == 0) || (peaks[i].height == 1)) {
+            counter++;
         }
     }
 
-    // zrobienie dwoch tablic z wynikami
-    unsigned int* power_of_2_heights = new unsigned int[count];
-    string* power_of_2_names = new string[count];
+    // utworzenie dwóch dynamicznie zaalokowanych tablic struktur szczytów
+    Peak * power_of_2 = new Peak[counter];
+    Peak * not_power_of_2 = new Peak[size - counter];
 
-    unsigned int* heights_result = new unsigned int[n-count];
-    string* names_result = new string[n-count];
-
-    // podzielenie danych na dwie tablice - z potegami dwojki oraz bez
-    int power_of_2_count = 0;
-    int result_counter = 0;
-    for(int i = 0; i < n; i++) {
-        if(((heights[i] & (heights[i] - 1)) == 0) || (heights[i] == 1)) {
-            power_of_2_heights[power_of_2_count] = heights[i];
-            power_of_2_names[power_of_2_count] = names[i];
-            power_of_2_count++;
+    // ustawianie wartości w tablicy z potęgami dwójki i bez potęg dwójki
+    int power_of_2_counter = 0;
+    int not_power_of_2_counter = 0;
+    for(int i = 0; i < size; i++) {
+        if(((peaks[i].height & (peaks[i].height - 1)) == 0) || (peaks[i].height == 1)) {
+            power_of_2[power_of_2_counter].height = peaks[i].height;
+            power_of_2[power_of_2_counter].name = peaks[i].name;
+            power_of_2_counter++;
         } else {
-            heights_result[result_counter] = heights[i];
-            names_result[result_counter] = names[i];
-            result_counter++;
+            not_power_of_2[not_power_of_2_counter].height = peaks[i].height;
+            not_power_of_2[not_power_of_2_counter].name = peaks[i].name;
+            not_power_of_2_counter++;
         }
     }
 
-    // posortowanie tablicy bez poteg dwojki
-    for(int i = 1; i < result_counter; i++) {
-        buff = heights_result[i];
-        buff_string = names_result[i];
+    // posortowanie tablicy bez potęg dwójki
+    for(int i = 1; i < not_power_of_2_counter; i++) {
+        height_buff = not_power_of_2[i].height;
+        name_buff = not_power_of_2[i].name;
         j = i - 1;
-
-        while((j >= 0) && (heights_result[j] > buff)) {
-            heights_result[j+1] = heights_result[j];
-            names_result[j+1] = names_result[j];
+        while((j >= 0) && (not_power_of_2[j].height > height_buff)) {
+            not_power_of_2[j + 1].height = not_power_of_2[j].height;
+            not_power_of_2[j + 1].name = not_power_of_2[j].name;
             j--;
         }
-        heights_result[j+1] = buff;
-        names_result[j+1] = buff_string;
+        not_power_of_2[j + 1].height = height_buff;
+        not_power_of_2[j + 1].name = name_buff;
     }
 
-    // posortowanie tablicy z potegami dwojki
-    for(int i = 1; i < power_of_2_count; i++) {
-        buff = power_of_2_heights[i];
-        buff_string = power_of_2_names[i];
+    // posortowanie tablicy z potęgami dwójki
+    for(int i = 1; i < power_of_2_counter; i++) {
+        height_buff = power_of_2[i].height;
+        name_buff = power_of_2[i].name;
         j = i - 1;
-
-        while((j >= 0) && (power_of_2_heights[j] > buff)) {
-            power_of_2_heights[j+1] = power_of_2_heights[j];
-            power_of_2_names[j+1] = power_of_2_names[j];
+        while((j >= 0) && (power_of_2[j].height > height_buff)) {
+            power_of_2[j + 1].height = power_of_2[j].height;
+            power_of_2[j + 1].name = power_of_2[j].name;
             j--;
         }
-        power_of_2_heights[j+1] = buff;
-        power_of_2_names[j+1] = buff_string;
+        power_of_2[j + 1].height = height_buff;
+        power_of_2[j + 1].name = name_buff;
     }
 
-    // wyswietlenie wynikow
-    print_results(power_of_2_count, power_of_2_names, power_of_2_heights);
-    print_results(result_counter, names_result, heights_result);
-    cout << '\n';
 
-    // usuniecie dynamicznie zaalokowanych tablic
-    delete[] heights_result;
-    delete[] names_result;
-    delete[] power_of_2_heights;
-    delete[] power_of_2_names;
+    // wyświetlenie wyników
+    print_peaks(power_of_2_counter, power_of_2);
+    print_peaks(not_power_of_2_counter, not_power_of_2);
+    cout << "\n";
+
+    // zwolnienie pamięci
+    delete[] not_power_of_2;
+    delete[] power_of_2;
 }
 
-int main()
-{
+int main() {
     std::ios_base::sync_with_stdio(false);
     std::cout.tie(nullptr);
     std::cin.tie(nullptr);
 
-    int t; // liczba testow - zestawow danych
-    int n; // liczba szczytow
+    int t;              // liczba zestawów danych
+    int n;              // liczba szczytów
 
-    // pobranie liczby zestawow
+    // wprowadzenie liczby zestawów danych
     cin >> t;
 
+    // pętla programowa
     for(int i = 0; i < t; i++) {
-        // pobranie liczby szczytow w zestawie
+        // wprowadzenie liczby szczytów
         cin >> n;
 
-        string *names = new string[n]; // nazwy szczytu
-        unsigned int *heights = new unsigned int[n]; // wysokosci szczytow
+        // utworzenie dynamicznie zaalokowanej tablicy struktur szczytów
+        Peak * peaks = new Peak[n];
 
-        // pobranie danych
+        // wprowadzenie danych do tablicy struktur szczytów
         for(int j = 0; j < n; j++) {
-            cin >> names[j] >> heights[j];
+            cin >> peaks[j].name >> peaks[j].height;
         }
 
-        // sortowanie pod wzgledem wysokosci
-        sort(n, names, heights);
+        // sortowanie szczytów
+        sort(n, peaks);
 
-        // usuniecie dynamicznie zaalokowanych tablic
-        delete[] names;
-        delete[] heights;
+        // zwolnienie pamięci
+        delete[] peaks;
     }
 
     return 0;
