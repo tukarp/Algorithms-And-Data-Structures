@@ -4,14 +4,14 @@
 
 ### Struktury danych
 
-- [Stos](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/Stack.cpp)
-- [Tablica](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/Array.cpp)
-- [Kolejka (klasyczna tablicowa)](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/Queue%20(klasyczna%20tablicowa).cpp)
-- [Kolejka (tablicowa z zawijaniem)](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/Queue%20(tablicowa%20z%20zawijaniem).cpp)
-- [Lista](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/List.cpp)
-- [Lista Dwukierunkowa Cykliczna](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/Circular%20Linked%20List.cpp)
-- [Drzewo binarne](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/Binary%20Tree.cpp)
-- [Graf](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data-Structures/Graph.cpp)
+- [Array](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Array.cpp)
+- [Binary Tree](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Binary%20Tree.cpp)
+- [Circullar Linked List](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Circular%20Linked%20List.cpp)
+- [Graph](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Graph.cpp)
+- [List](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/List.cpp)
+- [Queue (klasyczna tablicowa)](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Queue%20(klasyczna%20tablicowa).cpp)
+- [Queue (tablicowa z zawijaniem)](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Queue%20(tablicowa%20z%20zawijaniem).cpp)
+- [Stack](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Stack.cpp)
 
 ### Algorytmy Sortujące
 
