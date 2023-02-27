@@ -2,16 +2,22 @@
 
 ## Spis Treści
 
-### Struktury danych
+### Złożoności Algorytmów Sortujących
 
-- [Array](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Array.cpp)
-- [Binary Tree](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Binary%20Tree.cpp)
-- [Circullar Linked List](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Circular%20Linked%20List.cpp)
-- [Graph](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Graph.cpp)
-- [List](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/List.cpp)
-- [Queue (klasyczna tablicowa)](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Queue%20(klasyczna%20tablicowa).cpp)
-- [Queue (tablicowa z zawijaniem)](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Queue%20(tablicowa%20z%20zawijaniem).cpp)
-- [Stack](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Stack.cpp)
+| Algorytm | Złożoność Czasowa (Optymistyczna) | Złożoność Czasowa (Średnia) | Złożoność Czasowa (Pesymistyczna) | Złożoność Pamięciowa (Pesymistyczna) |
+| ---------- | :-: | :-: | :-: | :-: |
+| Selection Sort | O($n^{2}$) | O($n^{2}$) | O($n^{2}$) | O($n$) |
+| Bubble Sort | O($n$) | O($n^{2}$) | O($n^{2}$) | O($n$) |
+| Insertion Sort | O($n$) | O($n^{2}$) | O($n^{2}$) | O($n$) |
+| Heap Sort | O($n{log(n)}$) | O($n{log(n)}$) | O($n{log(n)}$) | O($n$) |
+| Merge Sort | O($n{log(n)}$) | O($n{log(n)}$) | O($n{log(n)}$) | O($n$) |
+| Quick Sort | O($n{log(n)}$) | O($n{log(n)}$) | O($n^{2}$) | O($n$) |
+| Bucket Sort | O($n+k$) | O($n+k$) | O($n^{2}$) | O($n$) |
+| Radix Sort | O($nk$) | O($nk$) | O($nk$) | O($n+k$) |
+| Counting Sort | O($n+k$) | O($n+k$) | O($n+k$) | O($k$) |
+| Shell Sort | O($n{log(n)}$) | O($n{log(n)}$) | O($n^{2}$) | O($1$) |
+
+Źródło: https://www.geeksforgeeks.org/time-complexities-of-all-sorting-algorithms/
 
 ### Algorytmy Sortujące
 
@@ -27,6 +33,17 @@
 - [Radix Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Radix%20Sort.cpp)
 - [Selection Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Selection%20Sort.cpp)
 - [Shell Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Shell%20Sort.cpp)
+
+### Struktury danych
+
+- [Array](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Array.cpp)
+- [Binary Tree](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Binary%20Tree.cpp)
+- [Circullar Linked List](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Circular%20Linked%20List.cpp)
+- [Graph](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Graph.cpp)
+- [List](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/List.cpp)
+- [Queue (klasyczna tablicowa)](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Queue%20(klasyczna%20tablicowa).cpp)
+- [Queue (tablicowa z zawijaniem)](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Queue%20(tablicowa%20z%20zawijaniem).cpp)
+- [Stack](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Stack.cpp)
 
 ### Treści zadań
 
