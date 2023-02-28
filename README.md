@@ -2,24 +2,9 @@
 
 ## Spis Treści
 
-### Złożoności Algorytmów Sortujących
-
-| Algorytm | Złożoność Czasowa (Optymistyczna) | Złożoność Czasowa (Średnia) | Złożoność Czasowa (Pesymistyczna) | Złożoność Pamięciowa (Pesymistyczna) |
-| ---------- | :-: | :-: | :-: | :-: |
-| Selection Sort | O($n^{2}$) | O($n^{2}$) | O($n^{2}$) | O($n$) |
-| Bubble Sort | O($n$) | O($n^{2}$) | O($n^{2}$) | O($n$) |
-| Insertion Sort | O($n$) | O($n^{2}$) | O($n^{2}$) | O($n$) |
-| Heap Sort | O($n{log(n)}$) | O($n{log(n)}$) | O($n{log(n)}$) | O($n$) |
-| Merge Sort | O($n{log(n)}$) | O($n{log(n)}$) | O($n{log(n)}$) | O($n$) |
-| Quick Sort | O($n{log(n)}$) | O($n{log(n)}$) | O($n^{2}$) | O($n$) |
-| Bucket Sort | O($n+k$) | O($n+k$) | O($n^{2}$) | O($n$) |
-| Radix Sort | O($nk$) | O($nk$) | O($nk$) | O($n+k$) |
-| Counting Sort | O($n+k$) | O($n+k$) | O($n+k$) | O($k$) |
-| Shell Sort | O($n{log(n)}$) | O($n{log(n)}$) | O($n^{2}$) | O($1$) |
-
-Źródło: https://www.geeksforgeeks.org/time-complexities-of-all-sorting-algorithms/
-
 ### Algorytmy Sortujące
+
+[Złożoności Algorytmów Sortujących](#złożoności-algorytmów-sortujących)
 
 - [Bogo Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Bogo%20Sort.cpp)
 - [Bubble Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Bubble%20Sort.cpp)
@@ -35,6 +20,8 @@
 - [Shell Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Shell%20Sort.cpp)
 
 ### Struktury danych
+
+[Złożoności Operacji na Strukturach Danych](#złożoności-operacji-na-strukturach-danych)
 
 - [Array](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Array.cpp)
 - [Binary Tree](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Binary%20Tree.cpp)
@@ -68,6 +55,45 @@
 - [Zadanie 7 - Premia lub hańba](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%207%20-%20Premia%20lub%20hanba.cpp)
 - [Zadanie 8 - Polowanie na kraby](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%208%20-%20Polowanie%20na%20kraby.cpp)
 - [Zadanie 9 - Rankingowe polowanie](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%209%20-%20Rankingowe%20polowanie.cpp)
+
+### Złożoności Algorytmów Sortujących
+
+|    Algorytm    |  Złożoność Czasowa Optymistyczna  |  Złożoność Czasowa Średnia  |   Złożoność Czasowa Pesymistyczna  |  Złożoność Pamięciowa Pesymistyczna  |
+|  :----------   |            :----------:           |        :----------:         |            :----------:            |             :----------:             |
+| Selection Sort | O($n^{2}$)                        | O($n^{2}$)                  | O($n^{2}$)                         | O($n$)                               |
+| Bubble Sort    | O($n$)                            | O($n^{2}$)                  | O($n^{2}$)                         | O($n$)                               |
+| Insertion Sort | O($n$)                            | O($n^{2}$)                  | O($n^{2}$)                         | O($n$)                               |
+| Heap Sort      | O($n{log(n)}$)                    | O($n{log(n)}$)              | O($n{log(n)}$)                     | O($n$)                               |
+| Merge Sort     | O($n{log(n)}$)                    | O($n{log(n)}$)              | O($n{log(n)}$)                     | O($n$)                               |
+| Quick Sort     | O($n{log(n)}$)                    | O($n{log(n)}$)              | O($n^{2}$)                         | O($n$)                               |
+| Bucket Sort    | O($n+k$)                          | O($n+k$)                    | O($n^{2}$)                         | O($n$)                               |
+| Radix Sort     | O($nk$)                           | O($nk$)                     | O($nk$)                            | O($n+k$)                             |
+| Counting Sort  | O($n+k$)                          | O($n+k$)                    | O($n+k$)                           | O($k$)                               |
+| Shell Sort     | O($n{log(n)}$)                    | O($n{log(n)}$)              | O($n^{2}$)                         | O($1$)                               |
+
+Źródło: https://www.geeksforgeeks.org/time-complexities-of-all-sorting-algorithms/
+
+### Złożoności Operacji na Strukturach Danych
+
+| Struktura Danych   | Złożoność Czasowa Średnia |     |     |     | Złożoność Czasowa Pesymistyczna |     |     |     | Złożoność Pamięciowa |
+| :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
+|                    | Dostęp        | Przeszukiwanie | Wstawianie    | Usuwanie      | Dostęp        | Przeszukiwanie | Wstawianie    | Usuwanie     | Pesymistyczna |
+| Array              | O($1$)        | O($n$)         | O($n$)        | O($n$)        | O($1$)        | O($n$)         | O($n$)        | O($n$)        | O($n$) |
+| Stack              | O($n$)        | O($n$)         | O($1$)        | O($1$)        | O($n$)        | O($n$)         | ($1$)         | ($1$)         | O($n$) |
+| Queue              | O($n$)        | O($n$)         | O($1$)        | O($1$)        | O($n$)        | O($n$)         | O($1$)        | O($1$)        | O($n$) |
+| Singly-Linked List | O($n$)        | O($n$)         | O($1$)        | O($1$)        | O($n$)        | O($n$)         | O($1$)        | O($1$)        | O($n$) |
+| Doubly-Linked List | O($n$)        | O($n$)         | O($1$)        | O($1$)        | O($n$)        | O($n$)         | O($1$)        | O($1$)        | O($n$) |
+| Skip List          | O(${log(n)}$) | O(${log(n)}$)  | O(${log(n)}$) | O(${log(n)}$) | O($n$)        | O($n$)         | O($n$)        | O($n$)      | O($n{log(n)}$) |
+| Hash Table         | N/A           | O($1$)         | O($1$)        | O($1$)        | N/A           | O($n$)         | O($n$)        | O($n$)        | O($n$) |
+| Binary Search Tree | O(${log(n)}$) | O(${log(n)}$)  | O(${log(n)}$) | O(${log(n)}$) | O($n$)        | O($n$)         | O($n$)        | O($n$)        | O($n$) |
+| Cartesian Tree     | N/A           | O(${log(n)}$)  | O(${log(n)}$) | O(${log(n)}$) | N/A           | O($n$)         | O($n$)        | O($n$)        | O($n$) |
+| B-Tree             | O(${log(n)}$) | O(${log(n)}$)  | O(${log(n)}$) | O(${log(n)}$) | O(${log(n)}$) | O(${log(n)}$)  | O(${log(n)}$) | O(${log(n)}$) | O($n$) |
+| Red-Black Tree     | O(${log(n)}$) | O(${log(n)}$)  | O(${log(n)}$) | O(${log(n)}$) | O(${log(n)}$) | O(${log(n)}$)  | O(${log(n)}$) | O(${log(n)}$) | O($n$) |
+| Splay Tree         | N/A           | O(${log(n)}$)  | O(${log(n)}$) | O(${log(n)}$) | N/A           | O(${log(n)}$)  | O(${log(n)}$) | O(${log(n)}$) | O($n$) |
+| AVL Tree           | O(${log(n)}$) | O(${log(n)}$)  | O(${log(n)}$) | O(${log(n)}$) | O(${log(n)}$) | O(${log(n)}$)  | O(${log(n)}$) | O(${log(n)}$) | O($n$) |
+| KD Tree            | O(${log(n)}$) | O(${log(n)}$)  | O(${log(n)}$) | O(${log(n)}$) | O($n$)        | O($n$)         | O($n$)        | O($n$)        | O($n$) |
+
+Źródło: https://www.bigocheatsheet.com/
 
 ## Zadanie 1 - Wyremontujemy wasz dom!
 
