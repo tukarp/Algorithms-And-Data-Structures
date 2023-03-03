@@ -158,6 +158,8 @@ Bayo
 Abidemi
 ```
 
+### [Rozwiązanie](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%201%20-%20Wyremontujemy%20wasz%20dom!.cpp)
+
 ## Zadanie 2 - Szczyty
 
 ### Treść Zadania
@@ -209,6 +211,8 @@ Indrys-10
 ```
 
 ***Uwaga! Nie można używać bibliotek STL. Program ma być samodzielną implementacją algorytmu sortującego.***
+
+### [Rozwiązanie](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%202%20-%20Szczyty.cpp)
 
 ## Zadanie 3 - Fala
 
@@ -274,6 +278,8 @@ Wyjście:
 
 ***Uwaga! Zadanie ma być samodzielną implementacją list bez wykorzystania bibliotek STL.***
 
+### [Rozwiązanie](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%203%20-%20Fala.cpp)
+
 ## Zadanie 4 - Faktury
 
 ### Treść Zadania
@@ -325,6 +331,8 @@ XZASQ4689
 
 ***Uwaga! Zadanie ma być samodzielną implementacją drzewa binarnego bez wkorzystania bibliotek STL.***
 
+### [Rozwiązanie](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%204%20-%20Faktury.cpp)
+
 ## Zadanie 5 - Dostawca mleka
 
 ### Treść Zadania
@@ -365,6 +373,8 @@ Wyjście:
 ```
 2
 ```
+
+### [Rozwiązanie](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%205%20-%20Dostawca%20mleka.cpp)
 
 ## Zadanie 6 - Turniej
 
@@ -409,6 +419,8 @@ Wyjście:
 
 ***Uwaga! Program ma w swoim rozwiązaniu używać metody "dziel i zwyciężaj" zaimplementowanej ze złożonością O(nlogn).***
 
+### [Rozwiązanie](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%206%20-%20Turniej.cpp)
+
 ## Zadanie 7 - Premia lub hańba
 
 ### Treść Zadania
@@ -445,6 +457,8 @@ Wyjście:
 ```
 
 ***Uwaga! Zadanie ma zostać rozwiązane przy użyciu programowania dynamicznego ze złożonością O(n3).***
+
+### [Rozwiązanie](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%207%20-%20Premia%20lub%20hanba.cpp)
 
 ## Zadanie 8 - Polowanie na kraby
 
@@ -488,6 +502,8 @@ Wyjście:
 3 0 2 4 1
 ```
 
+### [Rozwiązanie](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%208%20-%20Polowanie%20na%20kraby.cpp)
+
 ## Zadanie 9 - Rankingowe polowanie
 
 ### Treść zadania
@@ -530,3 +546,6 @@ Albert Dominik Cezary Franek Eustachy
 ```
 
 ***Uwaga! Nie można używać bibliotek STL. Program ma być samodzielną implementacją sortowania w czasie liniowym.***
+
+### [Rozwiązanie](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorithms%20And%20Data%20Structures%20I/Zadanie%209%20-%20Rankingowe%20polowanie.cpp)
+
