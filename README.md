@@ -1,4 +1,4 @@
-# Algorithms And Data Structures
+# Algorytmy i Struktury Danych
 
 ## Spis Treści
 
