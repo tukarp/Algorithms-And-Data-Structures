@@ -15,15 +15,39 @@
 - [Zadanie 8 - Polowanie na kraby](#zadanie-8---polowanie-na-kraby)
 - [Zadanie 9 - Rankingowe polowanie](#zadanie-9---rankingowe-polowanie)
 
-### Notatki
+### Algorytmy sortujące
 
-- [Notatki](#notatki-1)
-- [Algorytmy sortujące](#algorytmy-sortujące)
-    - [Złożoności algorytmów sortujących](#złożoności-algorytmów-sortujących)
-    - [Definicje algorytmów sortujących](#definicje-algorytmów-sortujących)
-- [Struktury danych](#struktury-danych)
-    - [Złożoności operacji na strukturach danych](#złożoności-operacji-na-strukturach-danych)
-    - [Definicje struktur danych](#definicje-struktur-danych)
+[Definicje algorytmów sortujących](#definicje-algorytmów-sortujących)
+
+[Złożoności algorytmów sortujących](#złożoności-algorytmów-sortujących)
+
+- [```Bogo Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Bogo%20Sort.cpp)
+- [```Bubble Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Bubble%20Sort.cpp)
+- [```Bucket Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Bucket%20Sort.cpp)
+- [```Cocktail Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Cocktail%20Sort.cpp)
+- [```Counting Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Counting%20Sort.cpp)
+- [```Heap Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Heap%20Sort.cpp)
+- [```Insertion Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Insertion%20Sort.cpp)
+- [```Merge Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Merge%20Sort.cpp) 
+- [```Quick Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Quick%20Sort.cpp)
+- [```Radix Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Radix%20Sort.cpp) 
+- [```Selection Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Selection%20Sort.cpp)
+- [```Shell Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Shell%20Sort.cpp)
+
+### Struktury danych
+
+[Definicje struktur danych](#definicje-struktur-danych)
+
+[Złożoności operacji na strukturach danych](#złożoności-operacji-na-strukturach-danych)
+
+- [```Tablica```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Array.cpp)
+- [```Lista```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/List.cpp)
+- [```Lista Cykliczna Dwukierunkowa```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Circular%20Linked%20List.cpp)
+- [```Stos```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Stack.cpp)
+- [```Kolejka (tablicowa z zawijaniem)```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Queue%20(tablicowa%20z%20zawijaniem).cpp)
+- [```Kolejka (klasyczna tablicowa)```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Queue%20(klasyczna%20tablicowa).cpp)
+- [```Drzewo Binarne```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Binary%20Tree.cpp)
+- [```Graf```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Graph.cpp)
 
 # Notatki
 
