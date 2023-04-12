@@ -19,30 +19,11 @@
 
 - [Notatki](#notatki-1)
 - [Algorytmy sortujące](#algorytmy-sortujące)
-- [Złożoności algorytmów sortujących](#złożoności-algorytmów-sortujących)
-- [Definicje algorytmów sortujących](#definicje-algorytmów-sortujących)
-    - ```Bogo Sort```
-    - ```Bubble Sort```
-    - ```Bucket Sort```
-    - ```Cocktail Sort```
-    - ```Counting Sort```
-    - ```Heap Sort```
-    - ```Insertion Sort```
-    - ```Merge Sort```
-    - ```Quick Sort```
-    - ```Radix Sort```
-    - ```Selection Sort```
-    - ```Shell Sort```
+    - [Złożoności algorytmów sortujących](#złożoności-algorytmów-sortujących)
+    - [Definicje algorytmów sortujących](#definicje-algorytmów-sortujących)
 - [Struktury danych](#struktury-danych)
-- [Złożoności operacji na strukturach danych](#złożoności-operacji-na-strukturach-danych)
-- [Definicje struktur danych](#definicje-struktur-danych)
-    - ```Tablica```
-    - ```Lista```
-    - ```Lista Cykliczna Dwukierunkowa```
-    - ```Stos```
-    - ```Kolejka```
-    - ```Drzewo Binarne```
-    - ```Graf```
+    - [Złożoności operacji na strukturach danych](#złożoności-operacji-na-strukturach-danych)
+    - [Definicje struktur danych](#definicje-struktur-danych)
 
 # Notatki
 
@@ -74,6 +55,7 @@
 
 - [```Shell Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Shell%20Sort.cpp) - algorytm sortujący działający w miejscu i korzystających z porównań elementów. Można go traktować jako uogólnienie sortowania przez wstawianie lub sortowania bąbelkowego, dopuszczające porównania i zamiany elementów położonych daleko od siebie.
 
+Źródło:
 ```
 https://pl.wikipedia.org/
 ```
