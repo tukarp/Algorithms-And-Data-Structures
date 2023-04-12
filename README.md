@@ -1,39 +1,10 @@
 # Algorytmy i Struktury Danych
 
-## Spis Treści
+## Spis treści
 
-### Algorytmy Sortujące
+### Laboratoria
 
-[Złożoności Algorytmów Sortujących](#złożoności-algorytmów-sortujących)
-
-- [Bogo Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Bogo%20Sort.cpp)
-- [Bubble Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Bubble%20Sort.cpp)
-- [Bucket Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Bucket%20Sort.cpp)
-- [Cocktail Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Cocktail%20Sort.cpp)
-- [Counting Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Counting%20Sort.cpp)
-- [Heap Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Heap%20Sort.cpp)
-- [Insertion Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Insertion%20Sort.cpp)
-- [Merge Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Merge%20Sort.cpp)
-- [Quick Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Quick%20Sort.cpp)
-- [Radix Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Radix%20Sort.cpp)
-- [Selection Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Selection%20Sort.cpp)
-- [Shell Sort](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Shell%20Sort.cpp)
-
-### Struktury danych
-
-[Złożoności Operacji na Strukturach Danych](#złożoności-operacji-na-strukturach-danych)
-
-- [Array](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Array.cpp)
-- [Binary Tree](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Binary%20Tree.cpp)
-- [Circullar Linked List](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Circular%20Linked%20List.cpp)
-- [Graph](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Graph.cpp)
-- [List](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/List.cpp)
-- [Queue (klasyczna tablicowa)](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Queue%20(klasyczna%20tablicowa).cpp)
-- [Queue (tablicowa z zawijaniem)](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Queue%20(tablicowa%20z%20zawijaniem).cpp)
-- [Stack](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Stack.cpp)
-
-### Treści zadań
-
+[Laboratoria](#laboratoria-1)
 - [Zadanie 1 - Wyremontujemy wasz dom!](#zadanie-1---wyremontujemy-wasz-dom)
 - [Zadanie 2 - Szczyty](#zadanie-2---szczyty)
 - [Zadanie 3 - Fala](#zadanie-3---fala)
@@ -44,7 +15,70 @@
 - [Zadanie 8 - Polowanie na kraby](#zadanie-8---polowanie-na-kraby)
 - [Zadanie 9 - Rankingowe polowanie](#zadanie-9---rankingowe-polowanie)
 
-### Złożoności Algorytmów Sortujących
+### Notatki
+
+- [Notatki](#notatki-1)
+- [Algorytmy sortujące](#algorytmy-sortujące)
+- [Złożoności algorytmów sortujących](#złożoności-algorytmów-sortujących)
+- [Definicje algorytmów sortujących](#definicje-algorytmów-sortujących)
+    - ```Bogo Sort```
+    - ```Bubble Sort```
+    - ```Bucket Sort```
+    - ```Cocktail Sort```
+    - ```Counting Sort```
+    - ```Heap Sort```
+    - ```Insertion Sort```
+    - ```Merge Sort```
+    - ```Quick Sort```
+    - ```Radix Sort```
+    - ```Selection Sort```
+    - ```Shell Sort```
+- [Struktury danych](#struktury-danych)
+- [Złożoności operacji na strukturach danych](#złożoności-operacji-na-strukturach-danych)
+- [Definicje struktur danych](#definicje-struktur-danych)
+    - ```Tablica```
+    - ```Lista```
+    - ```Lista Cykliczna Dwukierunkowa```
+    - ```Stos```
+    - ```Kolejka```
+    - ```Drzewo Binarne```
+    - ```Graf```
+
+# Notatki
+
+## Algorytmy sortujące
+
+### Definicje algorytmów sortujących
+
+- [```Bogo Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Bogo%20Sort.cpp) - algorytm sortujący polegający na metodzie prób i błędów. Działanie algorytmu polega na ciągłym losowym ustawianiu sortowanych elementów i sprawdzaniu czy po wymieszaniu elementy są posortowane.
+
+- [```Bubble Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Bubble%20Sort.cpp) - algorytm sortujący polegający na porównywaniu dwóch kolejnych elementów i zamianie ich kolejności.
+
+- [```Bucket Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Bucket%20Sort.cpp) - algorytm sortujący polegający na podzieleniu zbioru na kubełki o równej długości, przypisaniu liczb do odpowiednich kubełków, posortowaniu ich i oddaniu posortowanego zbioru.
+
+- [```Cocktail Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Cocktail%20Sort.cpp) - algorytm sortujący będący odmianą sortowania bąbelkowego, które sortuje elementy w zbiorze w dwóch kierunkach.
+
+- [```Counting Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Counting%20Sort.cpp) - algorytm sortujący polegający na zliczaniu, ile razy dany element występuje w porządkowanym ciągu (wejściowym) i przypisaniu mu miejsca w nowym ciągu (wyjściowym).
+
+- [```Heap Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Heap%20Sort.cpp) - algorytm sortujący polegający na użyciu kolejki priorytetowej zaimplementowanej w postaci kopca binarnego. Algorytm składa się z dwóch faz. W pierwszej elementy są reorganizowane są w celu utworzenia kopca. W drugiej zaś dokonywane jest właściwe sortowanie.
+
+- [```Insertion Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Insertion%20Sort.cpp) - algorytm sortujący polegający na ustawianiu kolejnych elementów wejściowych na odpowiednie miejsca docelowe.
+
+- [```Merge Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Merge%20Sort.cpp) - rekurencyjny algorytm sortujący polegający na metodzie dziel i zwyciężaj. 
+
+- [```Quick Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Quick%20Sort.cpp) - rekurencyjny algorytm sortujący polegający na metodzie dziel i zwyciężaj. Algorytm zakłada dekompozycję zbioru na mniejsze podzbiory, które łatwiej jest posortować.
+
+- [```Radix Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Radix%20Sort.cpp) - algorytm sortujący porządkujący stabilnie ciągi względem konkretnych cyfr, kolejno od najmniej znaczących do najbardziej znaczących pozycji.
+
+- [```Selection Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Selection%20Sort.cpp) - algorytm sortujący polegający na wyszukaniu elementu mającego się znaleźć na żądanej pozycji i zamianie miejscami z tym, który jest tam obecnie.
+
+- [```Shell Sort```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Sorting%20Algorithms/Shell%20Sort.cpp) - algorytm sortujący działający w miejscu i korzystających z porównań elementów. Można go traktować jako uogólnienie sortowania przez wstawianie lub sortowania bąbelkowego, dopuszczające porównania i zamiany elementów położonych daleko od siebie.
+
+```
+https://pl.wikipedia.org/
+```
+
+### Złożoności algorytmów sortujących
 
 |    Algorytm    |  Złożoność Czasowa Optymistyczna  |  Złożoność Czasowa Średnia  |   Złożoność Czasowa Pesymistyczna  |  Złożoność Pamięciowa Pesymistyczna  |
 |  :----------   |            :----------:           |        :----------:         |            :----------:            |             :----------:             |
@@ -59,9 +93,42 @@
 | Counting Sort  | O($n+k$)                          | O($n+k$)                    | O($n+k$)                           | O($k$)                               |
 | Shell Sort     | O($n{log(n)}$)                    | O($n{log(n)}$)              | O($n^{2}$)                         | O($1$)                               |
 
-Źródło: https://www.geeksforgeeks.org/time-complexities-of-all-sorting-algorithms/
+Źródło:
+```
+https://www.geeksforgeeks.org/time-complexities-of-all-sorting-algorithms/
+```
 
-### Złożoności Operacji na Strukturach Danych
+## Struktury danych
+
+### Definicje struktur danych
+
+- [```Tablica```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Array.cpp) - kontener uporządkowanych danych zazwyczaj takiego samego typu, w którym poszczególne elementy dostępne są za pomocą kluczy (indeksu).
+
+- [```Lista```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/List.cpp) - struktura danych służąca do reprezentacji zbiorów dynamicznych, w której elementy ułożone są w liniowym porządku.
+
+- [```Lista Cykliczna Dwukierunkowa```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Circular%20Linked%20List.cpp) - struktura danych gdzie w każdym elemencie listy jest przechowywane odniesienie zarówno do następnika, jak i poprzednika elementu w liście. Taka reprezentacja umożliwia swobodne przemieszczanie się po liście w obie strony. Następnikiem ostatniego elementu jest pierwszy element.
+
+- [```Stos```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Stack.cpp) - liniowa struktura danych, w której nowe dane dokładane są na wierzchołek stosu i z wierzchołka są pobierane.
+
+- ```Kolejka``` - liniowa struktura danych, w której nowe dane dopisywane są na końcu kolejki, a pobierane są z jej końca.
+    - [```Kolejka (tablicowa z zawijaniem)```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Queue%20(tablicowa%20z%20zawijaniem).cpp)
+    - [```Kolejka (klasyczna tablicowa)```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Queue%20(klasyczna%20tablicowa).cpp)
+
+- [```Drzewo Binarne```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Binary%20Tree.cpp) - struktura danych będąca rodzajem drzewa w którym liczba synów każdego wierzchołka wynosi nie więcej niż dwa, wyróżnia się wtedy lewego i prawego syna danego wierzchołka.
+
+- [```Graf```](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Data%20Structures/Graph.cpp) - struktura danych składającą się z dwóch zbiorów: zbioru wierzchołków (ang. vertices) i zbioru krawędzi (ang. edges), co matematycznie zapisujemy w postaci uporządkowanej pary - ```G = (V, E)```.
+
+Źródła:
+
+```
+https://pl.wikipedia.org/
+```
+
+```
+https://eduinf.waw.pl/
+```
+
+### Złożoności operacji na strukturach danych
 
 | Struktura Danych   | Złożoność Czasowa Średnia |     |     |     | Złożoność Czasowa Pesymistyczna |     |     |     | Złożoność Pamięciowa |
 | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
@@ -81,7 +148,13 @@
 | AVL Tree           | O(${log(n)}$) | O(${log(n)}$)  | O(${log(n)}$) | O(${log(n)}$) | O(${log(n)}$) | O(${log(n)}$)  | O(${log(n)}$) | O(${log(n)}$) | O($n$) |
 | KD Tree            | O(${log(n)}$) | O(${log(n)}$)  | O(${log(n)}$) | O(${log(n)}$) | O($n$)        | O($n$)         | O($n$)        | O($n$)        | O($n$) |
 
-Źródło: https://www.bigocheatsheet.com/
+Źródło:
+
+```
+https://www.bigocheatsheet.com/
+```
+
+# Laboratoria
 
 ## Zadanie 1 - Wyremontujemy wasz dom!
 
