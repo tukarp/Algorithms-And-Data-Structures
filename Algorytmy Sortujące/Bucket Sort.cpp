@@ -1,6 +1,3 @@
-// Made by https://github.com/tukarp
-// Credit goes to: https://www.geeksforgeeks.org/bucket-sort-2/
-
 #include <algorithm>
 #include <iostream>
 #include <vector>

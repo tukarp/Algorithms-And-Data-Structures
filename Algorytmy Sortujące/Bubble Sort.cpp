@@ -1,26 +1,20 @@
-// Made by https://github.com/tukarp
-// Credit goes to: https://www.geeksforgeeks.org/selection-sort/
-
 #include <iostream>
 
 using namespace std;
 
-void selection_sort(int size, int array[]) {
+void bubble_sort(int size, int array[]) {
     for(int i = 0; i < size - 1; i++) {
-        int min_index = i;
-        for(int j = i + 1; j < size; j++) {
-            if(array[j] < array[min_index]) {
-                min_index = j;
+        for(int j = 0; j < size - i - 1; j++) {
+            if(array[j] > array[j + 1]) {
+                swap(array[j], array[j + 1]);
             }
-        } if(min_index != i) {
-            swap(array[min_index], array[i]);
         }
     }
 }
 
 int main() {
     const int size = 10;
-    int array[size] = {5, 20, 40, 100, 97, 23, 2, -20, -92, -37};
+    int array[size] = {66, -98, 91, 31, -99, 51, -37, 47, -100, 24};
 
     cout << "Printing array before sorting: \n";
     for(int i = 0; i < size; i++) {
@@ -31,7 +25,7 @@ int main() {
     cout << " ---------- \n";
     cout << "Sorting array \n";
     cout << " ---------- \n";
-    selection_sort(size, array);
+    bubble_sort(size, array);
 
     cout << "Printing array after sorting: \n";
     for(int i = 0; i < size; i++) {

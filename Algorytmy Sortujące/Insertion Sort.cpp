@@ -1,6 +1,3 @@
-// Made by https://github.com/tukarp
-// Credit goes to: https://www.geeksforgeeks.org/insertion-sort/
-
 #include <iostream>
 
 using namespace std;

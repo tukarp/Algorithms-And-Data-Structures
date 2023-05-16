@@ -1,6 +1,3 @@
-// Made by https://github.com/tukarp
-// Credit goes to: https://www.geeksforgeeks.org/cocktail-sort/
-
 #include <iostream>
 
 using namespace std;
@@ -18,7 +15,6 @@ void cocktail_sort(int array[], int size) {
                 swapped = true;
             }
         }
-
         if(!swapped) {
             break;
         } else {

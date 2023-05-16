@@ -1,6 +1,3 @@
-// Most of the credit goes to: https://gist.github.com/toboqus/def6a6915e4abd66e922
-// and drawing binary tree method is from: https://stackoverflow.com/questions/36802354/print-binary-tree-in-a-pretty-way-using-c
-
 #include <iostream>
 #include <string>
 

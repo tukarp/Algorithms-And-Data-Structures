@@ -1,6 +1,3 @@
-// Made by https://github.com/tukarp
-// Credit goes to: https://www.geeksforgeeks.org/merge-sort/
-
 #include <iostream>
 
 using namespace std;

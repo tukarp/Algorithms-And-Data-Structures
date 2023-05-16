@@ -1,6 +1,3 @@
-// Made by https://github.com/tukarp
-// Credit goes to: https://www.geeksforgeeks.org/shellsort/
-
 #include <iostream>
 
 using namespace std;
