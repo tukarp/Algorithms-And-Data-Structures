@@ -17,7 +17,7 @@ W pierwszej linii wejścia znajduje się liczba ***n***, będąca liczbą obozó
 
 ***4 ≤ n ≤ 30***
 
-***0 ≤ a(i,j) ≤ 100***
+***0 ≤ a(i, j) ≤ 100***
 
 ### Wyjście:
 
