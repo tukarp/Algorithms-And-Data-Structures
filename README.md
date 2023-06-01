@@ -4,15 +4,15 @@
 
 ### Laboratoria
 
-- [Zadanie 1 - Wyremontujemy wasz dom!](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorytmy%20i%20Struktury%20Danych%20I/Zadanie%2001)
-- [Zadanie 2 - Szczyty](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorytmy%20i%20Struktury%20Danych%20I/Zadanie%2002)
-- [Zadanie 3 - Fala](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorytmy%20i%20Struktury%20Danych%20I/Zadanie%2003)
-- [Zadanie 4 - Faktury](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorytmy%20i%20Struktury%20Danych%20I/Zadanie%2004)
-- [Zadanie 5 - Dostawca mleka](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorytmy%20i%20Struktury%20Danych%20I/Zadanie%2005)
-- [Zadanie 6 - Turniej](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorytmy%20i%20Struktury%20Danych%20I/Zadanie%2006)
-- [Zadanie 7 - Premia lub hańba](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorytmy%20i%20Struktury%20Danych%20I/Zadanie%2007)
-- [Zadanie 8 - Polowanie na kraby](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorytmy%20i%20Struktury%20Danych%20I/Zadanie%2008)
-- [Zadanie 9 - Rankingowe polowanie](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorytmy%20i%20Struktury%20Danych%20I/Zadanie%2009)
+- [Zadanie 01 - Wyremontujemy wasz dom!](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorytmy%20i%20Struktury%20Danych%20I/Zadanie%2001)
+- [Zadanie 02 - Szczyty](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorytmy%20i%20Struktury%20Danych%20I/Zadanie%2002)
+- [Zadanie 03 - Fala](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorytmy%20i%20Struktury%20Danych%20I/Zadanie%2003)
+- [Zadanie 04 - Faktury](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorytmy%20i%20Struktury%20Danych%20I/Zadanie%2004)
+- [Zadanie 05 - Dostawca mleka](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorytmy%20i%20Struktury%20Danych%20I/Zadanie%2005)
+- [Zadanie 06 - Turniej](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorytmy%20i%20Struktury%20Danych%20I/Zadanie%2006)
+- [Zadanie 07 - Premia lub hańba](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorytmy%20i%20Struktury%20Danych%20I/Zadanie%2007)
+- [Zadanie 08 - Polowanie na kraby](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorytmy%20i%20Struktury%20Danych%20I/Zadanie%2008)
+- [Zadanie 09 - Rankingowe polowanie](https://github.com/tukarp/Algorithms-And-Data-Structures/blob/main/Algorytmy%20i%20Struktury%20Danych%20I/Zadanie%2009)
 
 ### Algorytmy sortujące
 
